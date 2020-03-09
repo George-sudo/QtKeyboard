@@ -20,7 +20,7 @@ class AbstractKeyboard : public QWidget
 {
     Q_OBJECT
 public:
-    AbstractKeyboard(QWidget *parent = 0) : QWidget(parent) {
+    AbstractKeyboard(QWidget *parent = nullptr) : QWidget(parent) {
 
     }
     ~AbstractKeyboard() { }

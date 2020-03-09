@@ -37,7 +37,7 @@ private:
     void loadData2();
 
 private:
-    QMap<QString, QList<QPair<QString, QString>> > m_data;
+    QMap< QString, QList<QPair<QString, QString>> > m_data;
 };
 
 class Keyboard : public AbstractKeyboard

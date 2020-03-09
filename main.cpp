@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
 
     QWidget window;
-    window.setWindowTitle("QtKeyboard by Qt君");
+    window.setWindowTitle("QtKeyboard");
     window.resize(850, 370);
     Keyboard keyboard;
     keyboard.show();
